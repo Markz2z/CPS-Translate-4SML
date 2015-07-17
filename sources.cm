@@ -1,0 +1,78 @@
+Group
+        signature SET
+        structure Set
+
+        signature TEMP
+        structure Temp
+
+        signature ML_AST     
+        structure MLAst
+
+        signature CPS 
+        structure Cps
+
+        signature CPS_CONVERT   
+        structure CpsConvert
+
+        signature CLOSURE
+        structure Closure
+
+        signature CLOSURE_CONVERT
+        structure ClosureConvert 
+
+        signature FLAT
+        structure Flat
+
+        signature HOIST
+        structure Hoist    
+
+        signature MACHINE
+        structure Machine   
+
+        signature CODEGEN
+        structure Codegen 
+
+        structure Test
+
+        structure Main
+is
+        set.sig
+        set.sml
+
+        temp.sig
+        temp.sml
+
+        ml-ast.sig
+        ml-ast.sml
+
+        cps.sig 
+        cps.sml
+
+        cps-convert.sig
+        cps-convert.sml
+
+        closure.sig
+        closure.sml
+
+        closure-convert.sig
+        closure-convert.sml
+
+        flat.sig
+        flat.sml
+
+        hoist.sig
+        hoist.sml
+
+        machine.sig
+        machine.sml
+
+        codegen.sig
+        codegen.sml
+
+        test.sml
+
+        main.sml
+
+        $/basis.cm
+        
+(*to compile an ast, run: Main.main (Test.fac, "fac");*)
