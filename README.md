@@ -1,3 +1,4 @@
+流程:Abstract syntax tree->Continuation Passing Style->Flat->Closure implementation->hoist the func—>C Language representation(with a tiny GC)
 实验编译结果说明：
 测试用例：m_hello,m0,m1,m2,m3,m4,fac,print2string
 编译环境：Clang
